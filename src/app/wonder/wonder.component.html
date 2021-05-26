@@ -1,0 +1,7 @@
+<div class="card" style="width: 18rem;" *ngIf="wonder">
+  <h5 class="card-title">{{wonder.title}}</h5>
+  <img [src]="wonder.imagePath" class="card-img-top" [alt]="wonder.title">
+  <div class="card-body">
+    <p class="card-text">{{wonder.description}}</p>
+  </div>
+</div>
